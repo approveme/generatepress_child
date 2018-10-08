@@ -33,7 +33,10 @@ body{
 	border: 1px solid #659C17;
 	margin: -13px 0 0 11px;
 }
-.main-nav li a:hover, .main-nav #menu-item-61186 a:hover{
+.main-navigation .main-nav ul li.menu-item-has-children > a{
+	background-color: transparent;
+}
+.main-nav li a:hover, .main-nav .header-cta-btn a:hover{
 	background-color:none;
 }
 .main-navigation .main-nav ul li a:hover{
