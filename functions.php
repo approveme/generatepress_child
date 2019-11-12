@@ -110,5 +110,11 @@ if ( ! function_exists( 'generate_construct_footer' ) ) {
 }
 
 
+//* Override header logo url
+function am_header_logo_href ($url){
+	return 'https://www.approveme.com';
+}
+add_filter( 'generate_logo_href' , 'am_header_logo_href' );
+
 // Add custom sidebar
 include("custom-sidebar.php");
